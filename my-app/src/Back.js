@@ -16,6 +16,7 @@ function Back() {
     return (
         <div>
          <div className='backing'>
+             <div className='backing_container'>
               <div>
             <img src={da} className='da'/>
           </div>
@@ -46,7 +47,7 @@ function Back() {
 </div>
 </div>
      
-     
+     </div>
        </div>
     )
 }
