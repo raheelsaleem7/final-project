@@ -1,13 +1,13 @@
-.back {
-
-}
-.back_container {
-    display: grid;
-    grid-template-columns: 50% 50%;
+.backing {
+    display: flex;
     background-image: url("./images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.back_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
     padding: 16px 1px;
     margin: 0 auto;
     max-width: 1280px;
@@ -15,17 +15,28 @@
 .da {
     width: 500px;
 }
+.backing2 {
+    padding: 35px 10px
+}
 .back_header{
     border-bottom: 1px solid #ddd;
+    padding: 13px 0px
 }
 .front {
     width: 69px;
 }
+.dot_btn2 {
+    padding: 10px;
+    text-align-last: center;
+    display: inline-flex;
+}
 .back_content {
     display: flex;
     background: white;
-    padding: 20px 15px;
     margin: 0 3px;
+    width: 212px;
+    height: 143px;
+    align-items: center;
 }
 .back_to {
     display: flex;

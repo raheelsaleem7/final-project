@@ -1,5 +1,4 @@
 import React from 'react'
-import da from './images/da.png'
 import front from './images/front.png'
 import wireless from './images/Wireless.png'
 import laptop from './images/apptablet.png'
@@ -9,15 +8,9 @@ function Back_tab1() {
         <div>
              <div className='back'>
           <div className='back_container'>
-              <div>
-            <img src={da} className='da'/>
-          </div>
-          
+           
           <div className='back_side'>
-       <div className='back_header'>
-           <h4>Television Entertyainem</h4>
-
-       </div>
+      
             <div className='back_to'>
             <div className='back_content'>
                 <div className='back_img'>

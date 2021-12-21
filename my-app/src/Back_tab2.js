@@ -8,11 +8,6 @@ function Back_tab2() {
     return (
         <div>
              <div className='back'>
-          <div className='back_container'>
-              <div>
-            <img src={da} className='da'/>
-          </div>
-          
           <div className='back_to'>
             <div className='back_content'>
                 <div className='back_img'>
@@ -43,10 +38,6 @@ function Back_tab2() {
             </div>
               </div>
           <div className='back_side'>
-       <div className='back_header'>
-           <h4>Television Entertyainem</h4>
-
-       </div>
             <div className='back_to'>
             <div className='back_content'>
                 <div className='back_img'>
@@ -84,7 +75,7 @@ function Back_tab2() {
 
           </div>
         </div>
-        </div>
+    
     )
 }
 
