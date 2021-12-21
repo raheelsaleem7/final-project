@@ -1,0 +1,39 @@
+.car {
+    padding: 15px 130px;
+}
+.car_container {
+    border: 1px solid lightgray;
+    display: flex;
+    padding: 3px 1px;
+    border-radius: 7px;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.car_inner {
+    border-right: 1px solid #ddd;
+    padding: 20px 24px;
+    align-self: center;
+}
+.car_content {
+     display: flex;
+     align-self: center;
+}
+.for_logo {
+    align-self: center;
+}
+.car_h {
+    color: #333e48;
+    opacity: .9;
+    font-family: sans-serif;
+}
+.car_p {
+    color: #333e48;
+    opacity: .7;
+    font-family: system-ui;
+    font-size: 14px;
+    text-align-last: center;
+}
+.for_truck {
+    margin: 0 19px;
+    align-self: center;
+}

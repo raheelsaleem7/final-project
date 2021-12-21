@@ -1,0 +1,24 @@
+.dribble {
+    text-align: center;
+    padding: 19px 10px;
+    border-bottom: 1px solid #ddd;
+}
+@media screen and (max-width:480px) {
+    .dribble {
+        width: 313px;
+    }
+    
+}
+.dribble_content {
+
+}
+.theme {
+    padding-left: 26px;
+    filter: contrast(0.5);
+    opacity: .7;
+    cursor: pointer;
+}
+.theme:hover {
+   filter: none;
+   opacity: 1;
+}

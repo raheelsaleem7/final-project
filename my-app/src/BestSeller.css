@@ -1,0 +1,17 @@
+.main_div2 {
+    display: flex;
+    background: white;
+    padding-top: 10px;
+    cursor: pointer;
+    background: #f2f2f2;
+}
+.bestseller {
+    background: #f2f2f2;
+    background: #f2f2f2;
+    padding: 52px 44px;
+    margin-bottom: 34px;
+}
+.bestseller_container {
+    margin: 0 auto;
+    max-width: 1280px
+}

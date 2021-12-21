@@ -1,0 +1,132 @@
+.tab_ul {
+    list-style-type: none;
+    display: inline-flex;
+   
+}
+.tab_li {
+    text-decoration: none;
+}
+.nav-active {
+    text-decoration: none;
+    color: #333e48;
+    font-weight: 600;
+}
+.nav-link {
+    text-decoration: none;
+    padding-left: 35px;
+   color: #7b8288;
+    font-weight: 600;
+}
+.tab_content {
+    border-bottom: 1px solid #DDDDDD;
+
+}
+.woocommerce-loop-product__title {
+    color: #0062bd;
+    font-size: 14px;
+    line-height: 1.28572em;
+    height: 2.57144em
+    
+}
+.woocommerce-LoopProduct-link {
+    text-decoration: none;
+}
+.for_icon {
+    display: flex;
+}
+.svg {
+   
+    background: #eaeaea;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+   
+}
+.svg:hover {
+    fill: #f3c340;
+  
+}
+.tab_content1:hover .svg{
+    display: block;
+    background-color: #f3c340;
+   fill: #f3c340;
+  
+}
+.svg-icon {
+    position: relative;
+    left: 7px;
+    top: 5px;
+}
+.image11 {
+    width: 65px
+}
+.tba_main {
+    margin-left: 28px;
+}
+.tab_content1 {
+    border-right: 1px solid #ddd;
+    padding: 24px 25px;
+    height: 243px;
+    width: 257px;
+   cursor: pointer;
+}
+.tab_content1:hover {
+    border-bottom: 1px solid #DDDDDD;
+    box-shadow: 0px 0px 2px 2px #0000001f;
+}
+.main1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.for_picture {
+    text-align: center;
+    padding-top: 20px;
+}
+.audio {
+    font-size: 12px;
+    color: #90a1b0;
+}
+.dollar9 {
+    color: #333e48;
+    opacity: .7;
+}
+.dollar10 {
+    color: #dc3545;
+    font-size: 18px;
+}
+.dollar11 {
+    color: #768b9e;
+    font-size: 8px;
+    text-decoration: line-through;
+}
+.image12 {
+    width: 100px;
+}
+.not-active{
+    display:none;
+}
+.active {
+    background-color: #0069B3;
+    color: white;
+    border-radius: 0 36px 36px 0;
+}
+.active-tab1 {
+    transition: 0.5s;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    font-size: 21px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #fed700
+}
+.not-active-tab1 {
+    transition: 0.5s;
+    cursor:pointer;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    font-size: 18px;
+   
+}

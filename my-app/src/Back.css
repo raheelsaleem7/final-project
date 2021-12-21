@@ -1,0 +1,33 @@
+.back {
+
+}
+.back_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url("./images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 16px 1px;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.da {
+    width: 500px;
+}
+.back_header{
+    border-bottom: 1px solid #ddd;
+}
+.front {
+    width: 69px;
+}
+.back_content {
+    display: flex;
+    background: white;
+    padding: 20px 15px;
+    margin: 0 3px;
+}
+.back_to {
+    display: flex;
+    margin: 32px 0px;
+}

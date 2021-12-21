@@ -1,0 +1,171 @@
+.center {
+display: flex;
+padding: 31px;
+}
+@media screen and (max-width:480px) {
+    .center {
+        display: flex;
+        flex-wrap:wrap;
+        
+    }
+}
+@media screen and (max-width:768px) {
+    .center {
+        display: flex;
+        flex-wrap:wrap;
+        
+    }
+}
+.center_container {
+display: flex;
+    margin: 0 auto;
+    max-width: 1280px
+}
+@media screen and (max-width:768px) {
+    .center_container {
+        display: flex;
+        flex-wrap:wrap;
+        
+        
+    }
+}
+@media screen and (max-width:1024px) {
+    .center_container {
+        display: flex;
+        flex-wrap:wrap;
+        
+        
+    }
+}
+.imag10 {
+
+}
+@media screen and (max-width:480px) {
+    .image10 {
+       
+        width: 183px;
+    }
+}
+.right_side {
+    border: 2px solid #f3d700;
+    display: inline-grid;
+    border-radius: 12px;
+    width: 360px;
+  
+}
+@media screen and (max-width:480px) {
+    .right_side {
+        width: 277px;
+    }
+}
+.dollarss {
+    font-size: 11px;
+    opacity: .7;
+    line-height: 12px;
+}
+.money {
+    margin-bottom: 1em;
+}
+.for_game {
+    color: #0062bd;
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+@media screen and (max-width:480px) {
+    .for_game {
+       font-size: 10px;
+    }
+}
+.right_content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 66px;
+    padding: 30px 45px;
+
+}
+.countdwon {
+    line-height: 41px;
+}
+.for_sale {
+    background-color: #fed700;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    display: inline-grid;
+    text-align: center;
+
+}
+.save_dollar {
+    align-self: center;
+    font-size: 19px;
+    font-weight: 700;
+    display: grid;
+}
+.price6 {
+    color: #dc3545;
+    font-size: 32px;
+    font-weight: 500;
+}
+.price7 {
+    color: #768b94;
+    text-decoration: line-through;
+    font-size: 19px;
+}
+.tab2{
+    display: none;
+}
+.tab3 {
+    display: none;
+}
+.not-active{
+    display:none;
+}
+.active {
+    background-color: #0069B3;
+    color: white;
+    border-radius: 0 36px 36px 0;
+}
+.active-tab {
+    width: 28px;
+    height: 7px;
+    background-color: #f3d700;
+    display: inline-block;
+    border-radius: 37px;
+    padding: 0;
+    border-width: 0;
+    cursor:pointer;
+    transition:0.5s;
+}
+.not-active-tab {
+    transition: 0.5s;
+    cursor:pointer;
+    width: 8px;
+    height: 8px;
+    background-color: #bcbcbc;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0;
+    border-width: 0;
+}
+.tab_btn {
+    
+}
+.active-steps {
+   
+}
+@media screen and (max-width:480px) {
+    .active-steps {
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .active-steps {
+        margin-top: 31px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .active-steps {
+        
+    }
+}
